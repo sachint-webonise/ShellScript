@@ -15,3 +15,4 @@ I have commented the scripts & document.
 
 assignment.log contains the log of commands.
 
+The file content have been maintained in the same way as it turned out after running the script.

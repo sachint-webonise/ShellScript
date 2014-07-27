@@ -1,0 +1,23 @@
+1.Write a bash script to determine the following;
+
+    The hostname of the system you are on?
+    The type and version of the operating system the machine is running? (Show both at the same time, with one command.)
+    The full path to your home directory?
+    Which other users are logged into the machine you are using?
+    What groups you belong to?
+    What files (excluding directories) are located in your home directory and all its subdirectories?
+
+All output should be stored in assignment.log file with date and time.
+
+2.Write a bash script to rename the all files with extension .txt inside your assignment directory and list them on console.
+
+3.Extend above bash script to rename the all files whose name starts with letter "x" inside your assignment directory and list them on console..
+
+4.After renaming all the files store the output of listing of files inside the directory to some assignment.log file with date and time inside the log all re-naming of files happens.
+
+5.After renaming and log them in assignment.log , Create a folder named "public_html" in your assignment directory. Place a 'readme.txt' file in there. (It should have the path: ~/public_html/readme.txt.) Set up file permissions to 777 so that you can see the directory listing. 
+
+6. Move first 4 files from assignment folder to public_html folder.
+
+7. Copy the public_html folder inside the public_html and then rename it.
+

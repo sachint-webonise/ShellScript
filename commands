@@ -1,8 +1,25 @@
+
+=======================================================================================================================================================================
+
+5. Create a folder named "public_html" in your assignment directory. Place a 'readme.txt' file in there. (It should have the path: ~/public_html/readme.txt.) Set up 	file permissions to 777 so that you can see the directory listing. 
+
+
 sachin@inspiron-5520:~$ mkdir public_html
 sachin@inspiron-5520:~$ touch readme.txt
 sachin@inspiron-5520:~$ chmod 777 readme.txt
 
 
+
+=======================================================================================================================================================================
+6. Move first 4 files from assignment folder to public_html folder.
 sachin@inspiron-5520:~/assignment$ ls ~/assignment/|head -4| xargs -i mv {} ~/public_html
-sachin@inspiron-5520:~/assignment$ mkdir ~/public_html/public_html
-sachin@inspiron-5520:~$ mv ~/public_html/public_html ~/public_html/public_html2
+
+
+
+
+=======================================================================================================================================================================
+7.Copy the public_html folder inside the public_html and then rename it.
+
+mkdir ~/public_html/public_html
+cp ~/public_html ~/public_html/public_html
+mv ~/public_html/public_html ~/public_html/public_html2
